@@ -4,7 +4,7 @@ import java.util.Scanner;
 class Fibonaci {
     int input,temp=0,temp1=1,sum;
     void input(){                // Taking input from user//
-        System.out.println("Enter the number of Element");  // user will get
+        System.out.println("Enter the number");  // user will get
         Scanner sc=new Scanner(System.in);
         input=sc.nextInt();
     }
@@ -19,6 +19,7 @@ class Fibonaci {
     }
     public static void main(String[] args) {
         Fibonaci f=new Fibonaci();
+        Display d=new Display();
         f.input();
         f.output();
     }
